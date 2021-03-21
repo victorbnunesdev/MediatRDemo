@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Api", "Scheduler.Api\Scheduler.Api.csproj", "{C31ADFC4-A437-440C-8C2B-BD6D425BCE4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{BAEEF3E4-C424-44A1-80EF-38BD3A8A609B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{8A6325B2-FCF9-4630-8388-D93166F7D125}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{5B6ADAAC-A5E7-4A1F-949C-1340FE21EEA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{0783E482-2731-4F37-AEFB-98BE71C9C631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{137ADCA0-3E3B-4B4D-BF7B-70EE4FF8299B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Domain", "Scheduler.Domain\Scheduler.Domain.csproj", "{13459A14-C632-486F-B072-E2B94A15CFBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Domain.Core", "Scheduler.Domain.Core\Scheduler.Domain.Core.csproj", "{A7E2502D-231A-4EF6-9060-F75E42BF87EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Application", "Scheduler.Application\Scheduler.Application.csproj", "{3A3DF10C-F327-4298-BD22-C00A95118E96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Infra.CrossCutting.Bus", "Scheduler.Infra.CrossCutting.Bus\Scheduler.Infra.CrossCutting.Bus.csproj", "{DD3C8E30-FEE7-443E-8935-FA206E025B45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{C1C65842-E819-4814-AE96-FDC2EF30B7A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{F1134551-49C4-4AAF-98FC-8EA46DBD0351}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler.Infra.Data", "Scheduler.Infra.Data\Scheduler.Infra.Data.csproj", "{4A4F9786-31A4-4F8E-A7D2-BA0ED5C676F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduler.Infra.CrossCutting.IoC", "Scheduler.Infra.CrossCutting.IoC\Scheduler.Infra.CrossCutting.IoC.csproj", "{2DE0D38A-BEA9-4576-AAA7-4A127B899531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C31ADFC4-A437-440C-8C2B-BD6D425BCE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31ADFC4-A437-440C-8C2B-BD6D425BCE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31ADFC4-A437-440C-8C2B-BD6D425BCE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31ADFC4-A437-440C-8C2B-BD6D425BCE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13459A14-C632-486F-B072-E2B94A15CFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13459A14-C632-486F-B072-E2B94A15CFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13459A14-C632-486F-B072-E2B94A15CFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13459A14-C632-486F-B072-E2B94A15CFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E2502D-231A-4EF6-9060-F75E42BF87EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E2502D-231A-4EF6-9060-F75E42BF87EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E2502D-231A-4EF6-9060-F75E42BF87EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E2502D-231A-4EF6-9060-F75E42BF87EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3DF10C-F327-4298-BD22-C00A95118E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3DF10C-F327-4298-BD22-C00A95118E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3DF10C-F327-4298-BD22-C00A95118E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3DF10C-F327-4298-BD22-C00A95118E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3C8E30-FEE7-443E-8935-FA206E025B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3C8E30-FEE7-443E-8935-FA206E025B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3C8E30-FEE7-443E-8935-FA206E025B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3C8E30-FEE7-443E-8935-FA206E025B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4F9786-31A4-4F8E-A7D2-BA0ED5C676F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4F9786-31A4-4F8E-A7D2-BA0ED5C676F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4F9786-31A4-4F8E-A7D2-BA0ED5C676F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4F9786-31A4-4F8E-A7D2-BA0ED5C676F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE0D38A-BEA9-4576-AAA7-4A127B899531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE0D38A-BEA9-4576-AAA7-4A127B899531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE0D38A-BEA9-4576-AAA7-4A127B899531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE0D38A-BEA9-4576-AAA7-4A127B899531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C31ADFC4-A437-440C-8C2B-BD6D425BCE4B} = {8A6325B2-FCF9-4630-8388-D93166F7D125}
+		{13459A14-C632-486F-B072-E2B94A15CFBF} = {0783E482-2731-4F37-AEFB-98BE71C9C631}
+		{A7E2502D-231A-4EF6-9060-F75E42BF87EE} = {0783E482-2731-4F37-AEFB-98BE71C9C631}
+		{3A3DF10C-F327-4298-BD22-C00A95118E96} = {5B6ADAAC-A5E7-4A1F-949C-1340FE21EEA4}
+		{DD3C8E30-FEE7-443E-8935-FA206E025B45} = {C1C65842-E819-4814-AE96-FDC2EF30B7A3}
+		{C1C65842-E819-4814-AE96-FDC2EF30B7A3} = {137ADCA0-3E3B-4B4D-BF7B-70EE4FF8299B}
+		{F1134551-49C4-4AAF-98FC-8EA46DBD0351} = {137ADCA0-3E3B-4B4D-BF7B-70EE4FF8299B}
+		{4A4F9786-31A4-4F8E-A7D2-BA0ED5C676F9} = {F1134551-49C4-4AAF-98FC-8EA46DBD0351}
+		{2DE0D38A-BEA9-4576-AAA7-4A127B899531} = {C1C65842-E819-4814-AE96-FDC2EF30B7A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64AFC402-1D7B-4667-9949-2FE691B0E0C4}
+	EndGlobalSection
+EndGlobal
